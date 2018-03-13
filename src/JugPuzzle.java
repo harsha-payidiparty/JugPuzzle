@@ -10,8 +10,6 @@ import java.util.Observer;
  * and 1 contain 4 units of liquid each. When a player makes a move, one Jug spills into
  * another. The JugPuzzle knows how many moves have taken place since the start
  * of the game. A spill ends as soon as one jug is empty or one jug is filled.
- * 
- * @author csc207student
  */
 
 public class JugPuzzle extends Observable{
